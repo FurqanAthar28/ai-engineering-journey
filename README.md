@@ -12,3 +12,6 @@ Learning to build AI applications with Python, step by step.
 ### Key lesson
 LLMs are stateless: they don't remember anything between calls.
 A chatbot "remembers" because the app resends the full conversation history on every turn.
+
+# Day 2: Limitations
+-- Known limitation: the small model still confuses "a Faisalabad software house" with a company name
