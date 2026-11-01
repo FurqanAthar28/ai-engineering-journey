@@ -1,0 +1,74 @@
+[
+  {
+    "id": "technova",
+    "input": "We're hiring!! Backend dev needed at TechNova Solutions, Lahore office (no remote sorry). Must know Python + Django, PostgreSQL is a plus, Docker experience preferred. Freshers welcome but 1 year exp is better. Apply fast!!",
+    "expected": {
+      "title": "Backend Developer",
+      "company": "TechNova Solutions",
+      "location": "Lahore",
+      "skills": ["Python", "Django", "PostgreSQL", "Docker"],
+      "experience_years": 0,
+      "remote": false
+    }
+  },
+  {
+    "id": "cloudpeak",
+    "input": "Remote React + Node.js developer wanted. 3+ years of experience required. Must know TypeScript and AWS. We're a startup based in Karachi but the role is fully remote. Company: CloudPeak Labs.",
+    "expected": {
+      "title": "React + Node.js Developer",
+      "company": "CloudPeak Labs",
+      "location": "Karachi",
+      "skills": ["React", "Node.js", "TypeScript", "AWS"],
+      "experience_years": 3,
+      "remote": true
+    }
+  },
+  {
+    "id": "faisalabad-intern",
+    "input": "Internship opportunity: Python/Django intern at a Faisalabad software house. Fresh graduates only. Knowledge of Git and REST APIs required.",
+    "expected": {
+      "title": "Python/Django Intern",
+      "company": null,
+      "location": "Faisalabad",
+      "skills": ["Python", "Django", "Git", "REST APIs"],
+      "experience_years": 0,
+      "remote": false
+    }
+  },
+  {
+    "id": "systems-devops",
+    "input": "Senior DevOps Engineer needed at Systems Ltd, Islamabad. On-site only. 5+ years of experience with Kubernetes, Terraform and AWS.",
+    "expected": {
+      "title": "Senior DevOps Engineer",
+      "company": "Systems Ltd",
+      "location": "Islamabad",
+      "skills": ["Kubernetes", "Terraform", "AWS"],
+      "experience_years": 5,
+      "remote": false
+    }
+  },
+  {
+    "id": "pixelforge-wordpress",
+    "input": "Looking for a WordPress developer to work from home. Must know PHP, WordPress and Elementor. Minimum 2 years experience. PixelForge Studio, Multan.",
+    "expected": {
+      "title": "WordPress Developer",
+      "company": "PixelForge Studio",
+      "location": "Multan",
+      "skills": ["PHP", "WordPress", "Elementor"],
+      "experience_years": 2,
+      "remote": true
+    }
+  },
+  {
+    "id": "flutter-startup",
+    "input": "Flutter developer required for a growing startup. Experience: 1-2 years. Dart, Flutter and Firebase. Location: Rawalpindi.",
+    "expected": {
+      "title": "Flutter Developer",
+      "company": null,
+      "location": "Rawalpindi",
+      "skills": ["Dart", "Flutter", "Firebase"],
+      "experience_years": 1,
+      "remote": false
+    }
+  }
+]
