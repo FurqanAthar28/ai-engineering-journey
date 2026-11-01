@@ -32,3 +32,19 @@ A chatbot "remembers" because the app resends the full conversation history on e
 - Each part fixes different mistakes, so both are needed
 - Two equal scores can hide very different problems: always read the mistakes
 - The AI doesn't check its answers; it guesses one piece at a time
+## Day 4: AI as an API
+- Wrapped the job post extractor in a FastAPI app
+- `POST /extract`: send a job post, get clean structured data back
+- Response shape is guaranteed by the same Pydantic model (`JobPosting`)
+- Handles errors properly: if the AI model is not running, the API returns
+  a clear 503 message instead of crashing with a 500 error
+
+### Key lessons
+- The app (FastAPI, port 8000) and the AI (Ollama, port 11434) are two separate servers
+- Good apps expect things to fail and give clear messages when they do
+
+### How to run
+1. Start Ollama
+2. `cd 04-api`
+3. `uvicorn main:app --reload`
+4. Open http://127.0.0.1:8000/docs
